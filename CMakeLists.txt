@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(ObjectDetection)
+find_package( OpenCV REQUIRED )
+add_executable(image_proc src/image_proc.cpp)
+target_link_libraries(image_proc ${OpenCV_LIBS})
