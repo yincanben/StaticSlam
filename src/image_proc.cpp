@@ -49,7 +49,8 @@ int main(int argc , char** argv){
             GaussianBlur( gray2, dst2, Size( i, i ), 0, 0 );
         }
     namedWindow("Linear Blend", 1);
-    dst3 = dst1 - dst2 ;
+    //dst3 = dst1 - dst2 ;
+    absdiff( dst1, dst2, dst3 ) ;
     
     imshow( "Linear Blend", dst3 );
     //waitKey(0);
@@ -80,14 +81,13 @@ int main(int argc , char** argv){
  */
 void Threshold_Demo( int, void* )
 {
-  /* 0: 二进制阈值
+    /* 0: 二进制阈值
      1: 反二进制阈值
      2: 截断阈值
      3: 0阈值
      4: 反0阈值
-   */
+    */
 
-  threshold( dst3, dst, threshold_value, max_BINARY_value,threshold_type );
-
-  imshow( window_name, dst );
+    threshold( dst3, dst, threshold_value, max_BINARY_value,threshold_type );
+    imshow( window_name, dst );
 }
