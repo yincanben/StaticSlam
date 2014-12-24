@@ -1,1 +1,8 @@
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/frame_diff.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/image_proc.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openniViewer.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openni_grabber.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openni_viewer_simple.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pcl_segmentation.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pcl_write.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/savePCD.dir

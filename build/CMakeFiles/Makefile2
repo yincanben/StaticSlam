@@ -50,13 +50,48 @@ CMAKE_SOURCE_DIR = /home/ycb13/Desktop/StaticSlam
 CMAKE_BINARY_DIR = /home/ycb13/Desktop/StaticSlam/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/frame_diff.dir
+
+# All Build rule for target.
+CMakeFiles/frame_diff.dir/all:
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/depend
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  1
+	@echo "Built target frame_diff"
+.PHONY : CMakeFiles/frame_diff.dir/all
+
+# Include target in all.
+all: CMakeFiles/frame_diff.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/frame_diff.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/frame_diff.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/frame_diff.dir/rule
+
+# Convenience name for target.
+frame_diff: CMakeFiles/frame_diff.dir/rule
+.PHONY : frame_diff
+
+# clean rule for target.
+CMakeFiles/frame_diff.dir/clean:
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/clean
+.PHONY : CMakeFiles/frame_diff.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/frame_diff.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/image_proc.dir
 
 # All Build rule for target.
 CMakeFiles/image_proc.dir/all:
 	$(MAKE) -f CMakeFiles/image_proc.dir/build.make CMakeFiles/image_proc.dir/depend
 	$(MAKE) -f CMakeFiles/image_proc.dir/build.make CMakeFiles/image_proc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  2
 	@echo "Built target image_proc"
 .PHONY : CMakeFiles/image_proc.dir/all
 
@@ -82,6 +117,216 @@ CMakeFiles/image_proc.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/image_proc.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/openniViewer.dir
+
+# All Build rule for target.
+CMakeFiles/openniViewer.dir/all:
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/depend
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  3
+	@echo "Built target openniViewer"
+.PHONY : CMakeFiles/openniViewer.dir/all
+
+# Include target in all.
+all: CMakeFiles/openniViewer.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/openniViewer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openniViewer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/openniViewer.dir/rule
+
+# Convenience name for target.
+openniViewer: CMakeFiles/openniViewer.dir/rule
+.PHONY : openniViewer
+
+# clean rule for target.
+CMakeFiles/openniViewer.dir/clean:
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/clean
+.PHONY : CMakeFiles/openniViewer.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/openniViewer.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/openni_grabber.dir
+
+# All Build rule for target.
+CMakeFiles/openni_grabber.dir/all:
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/depend
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  4
+	@echo "Built target openni_grabber"
+.PHONY : CMakeFiles/openni_grabber.dir/all
+
+# Include target in all.
+all: CMakeFiles/openni_grabber.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/openni_grabber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openni_grabber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/openni_grabber.dir/rule
+
+# Convenience name for target.
+openni_grabber: CMakeFiles/openni_grabber.dir/rule
+.PHONY : openni_grabber
+
+# clean rule for target.
+CMakeFiles/openni_grabber.dir/clean:
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/clean
+.PHONY : CMakeFiles/openni_grabber.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/openni_grabber.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/openni_viewer_simple.dir
+
+# All Build rule for target.
+CMakeFiles/openni_viewer_simple.dir/all:
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/depend
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  5
+	@echo "Built target openni_viewer_simple"
+.PHONY : CMakeFiles/openni_viewer_simple.dir/all
+
+# Include target in all.
+all: CMakeFiles/openni_viewer_simple.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/openni_viewer_simple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openni_viewer_simple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/openni_viewer_simple.dir/rule
+
+# Convenience name for target.
+openni_viewer_simple: CMakeFiles/openni_viewer_simple.dir/rule
+.PHONY : openni_viewer_simple
+
+# clean rule for target.
+CMakeFiles/openni_viewer_simple.dir/clean:
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/clean
+.PHONY : CMakeFiles/openni_viewer_simple.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/openni_viewer_simple.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pcl_segmentation.dir
+
+# All Build rule for target.
+CMakeFiles/pcl_segmentation.dir/all:
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/depend
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  6
+	@echo "Built target pcl_segmentation"
+.PHONY : CMakeFiles/pcl_segmentation.dir/all
+
+# Include target in all.
+all: CMakeFiles/pcl_segmentation.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pcl_segmentation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pcl_segmentation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/pcl_segmentation.dir/rule
+
+# Convenience name for target.
+pcl_segmentation: CMakeFiles/pcl_segmentation.dir/rule
+.PHONY : pcl_segmentation
+
+# clean rule for target.
+CMakeFiles/pcl_segmentation.dir/clean:
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/clean
+.PHONY : CMakeFiles/pcl_segmentation.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pcl_segmentation.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pcl_write.dir
+
+# All Build rule for target.
+CMakeFiles/pcl_write.dir/all:
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/depend
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  7
+	@echo "Built target pcl_write"
+.PHONY : CMakeFiles/pcl_write.dir/all
+
+# Include target in all.
+all: CMakeFiles/pcl_write.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pcl_write.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pcl_write.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/pcl_write.dir/rule
+
+# Convenience name for target.
+pcl_write: CMakeFiles/pcl_write.dir/rule
+.PHONY : pcl_write
+
+# clean rule for target.
+CMakeFiles/pcl_write.dir/clean:
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/clean
+.PHONY : CMakeFiles/pcl_write.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pcl_write.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/savePCD.dir
+
+# All Build rule for target.
+CMakeFiles/savePCD.dir/all:
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/depend
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  8
+	@echo "Built target savePCD"
+.PHONY : CMakeFiles/savePCD.dir/all
+
+# Include target in all.
+all: CMakeFiles/savePCD.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/savePCD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/savePCD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/savePCD.dir/rule
+
+# Convenience name for target.
+savePCD: CMakeFiles/savePCD.dir/rule
+.PHONY : savePCD
+
+# clean rule for target.
+CMakeFiles/savePCD.dir/clean:
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/clean
+.PHONY : CMakeFiles/savePCD.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/savePCD.dir/clean
 .PHONY : clean
 
 #=============================================================================

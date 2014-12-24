@@ -96,6 +96,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named frame_diff
+
+# Build rule for target.
+frame_diff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 frame_diff
+.PHONY : frame_diff
+
+# fast build rule for target.
+frame_diff/fast:
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/build
+.PHONY : frame_diff/fast
+
+#=============================================================================
 # Target rules for targets named image_proc
 
 # Build rule for target.
@@ -107,6 +120,132 @@ image_proc: cmake_check_build_system
 image_proc/fast:
 	$(MAKE) -f CMakeFiles/image_proc.dir/build.make CMakeFiles/image_proc.dir/build
 .PHONY : image_proc/fast
+
+#=============================================================================
+# Target rules for targets named openniViewer
+
+# Build rule for target.
+openniViewer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 openniViewer
+.PHONY : openniViewer
+
+# fast build rule for target.
+openniViewer/fast:
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/build
+.PHONY : openniViewer/fast
+
+#=============================================================================
+# Target rules for targets named openni_grabber
+
+# Build rule for target.
+openni_grabber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 openni_grabber
+.PHONY : openni_grabber
+
+# fast build rule for target.
+openni_grabber/fast:
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/build
+.PHONY : openni_grabber/fast
+
+#=============================================================================
+# Target rules for targets named openni_viewer_simple
+
+# Build rule for target.
+openni_viewer_simple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 openni_viewer_simple
+.PHONY : openni_viewer_simple
+
+# fast build rule for target.
+openni_viewer_simple/fast:
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/build
+.PHONY : openni_viewer_simple/fast
+
+#=============================================================================
+# Target rules for targets named pcl_segmentation
+
+# Build rule for target.
+pcl_segmentation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_segmentation
+.PHONY : pcl_segmentation
+
+# fast build rule for target.
+pcl_segmentation/fast:
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/build
+.PHONY : pcl_segmentation/fast
+
+#=============================================================================
+# Target rules for targets named pcl_write
+
+# Build rule for target.
+pcl_write: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_write
+.PHONY : pcl_write
+
+# fast build rule for target.
+pcl_write/fast:
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/build
+.PHONY : pcl_write/fast
+
+#=============================================================================
+# Target rules for targets named savePCD
+
+# Build rule for target.
+savePCD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 savePCD
+.PHONY : savePCD
+
+# fast build rule for target.
+savePCD/fast:
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/build
+.PHONY : savePCD/fast
+
+src/OpenniPclViewer.o: src/OpenniPclViewer.cpp.o
+.PHONY : src/OpenniPclViewer.o
+
+# target to build an object file
+src/OpenniPclViewer.cpp.o:
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/src/OpenniPclViewer.cpp.o
+.PHONY : src/OpenniPclViewer.cpp.o
+
+src/OpenniPclViewer.i: src/OpenniPclViewer.cpp.i
+.PHONY : src/OpenniPclViewer.i
+
+# target to preprocess a source file
+src/OpenniPclViewer.cpp.i:
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/src/OpenniPclViewer.cpp.i
+.PHONY : src/OpenniPclViewer.cpp.i
+
+src/OpenniPclViewer.s: src/OpenniPclViewer.cpp.s
+.PHONY : src/OpenniPclViewer.s
+
+# target to generate assembly for a file
+src/OpenniPclViewer.cpp.s:
+	$(MAKE) -f CMakeFiles/openniViewer.dir/build.make CMakeFiles/openniViewer.dir/src/OpenniPclViewer.cpp.s
+.PHONY : src/OpenniPclViewer.cpp.s
+
+src/frame_diff.o: src/frame_diff.cpp.o
+.PHONY : src/frame_diff.o
+
+# target to build an object file
+src/frame_diff.cpp.o:
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/src/frame_diff.cpp.o
+.PHONY : src/frame_diff.cpp.o
+
+src/frame_diff.i: src/frame_diff.cpp.i
+.PHONY : src/frame_diff.i
+
+# target to preprocess a source file
+src/frame_diff.cpp.i:
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/src/frame_diff.cpp.i
+.PHONY : src/frame_diff.cpp.i
+
+src/frame_diff.s: src/frame_diff.cpp.s
+.PHONY : src/frame_diff.s
+
+# target to generate assembly for a file
+src/frame_diff.cpp.s:
+	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/src/frame_diff.cpp.s
+.PHONY : src/frame_diff.cpp.s
 
 src/image_proc.o: src/image_proc.cpp.o
 .PHONY : src/image_proc.o
@@ -132,6 +271,126 @@ src/image_proc.cpp.s:
 	$(MAKE) -f CMakeFiles/image_proc.dir/build.make CMakeFiles/image_proc.dir/src/image_proc.cpp.s
 .PHONY : src/image_proc.cpp.s
 
+src/openni_grabber.o: src/openni_grabber.cpp.o
+.PHONY : src/openni_grabber.o
+
+# target to build an object file
+src/openni_grabber.cpp.o:
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/src/openni_grabber.cpp.o
+.PHONY : src/openni_grabber.cpp.o
+
+src/openni_grabber.i: src/openni_grabber.cpp.i
+.PHONY : src/openni_grabber.i
+
+# target to preprocess a source file
+src/openni_grabber.cpp.i:
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/src/openni_grabber.cpp.i
+.PHONY : src/openni_grabber.cpp.i
+
+src/openni_grabber.s: src/openni_grabber.cpp.s
+.PHONY : src/openni_grabber.s
+
+# target to generate assembly for a file
+src/openni_grabber.cpp.s:
+	$(MAKE) -f CMakeFiles/openni_grabber.dir/build.make CMakeFiles/openni_grabber.dir/src/openni_grabber.cpp.s
+.PHONY : src/openni_grabber.cpp.s
+
+src/openni_viewer_simple.o: src/openni_viewer_simple.cpp.o
+.PHONY : src/openni_viewer_simple.o
+
+# target to build an object file
+src/openni_viewer_simple.cpp.o:
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/src/openni_viewer_simple.cpp.o
+.PHONY : src/openni_viewer_simple.cpp.o
+
+src/openni_viewer_simple.i: src/openni_viewer_simple.cpp.i
+.PHONY : src/openni_viewer_simple.i
+
+# target to preprocess a source file
+src/openni_viewer_simple.cpp.i:
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/src/openni_viewer_simple.cpp.i
+.PHONY : src/openni_viewer_simple.cpp.i
+
+src/openni_viewer_simple.s: src/openni_viewer_simple.cpp.s
+.PHONY : src/openni_viewer_simple.s
+
+# target to generate assembly for a file
+src/openni_viewer_simple.cpp.s:
+	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/src/openni_viewer_simple.cpp.s
+.PHONY : src/openni_viewer_simple.cpp.s
+
+src/pcl_segmentation.o: src/pcl_segmentation.cpp.o
+.PHONY : src/pcl_segmentation.o
+
+# target to build an object file
+src/pcl_segmentation.cpp.o:
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/src/pcl_segmentation.cpp.o
+.PHONY : src/pcl_segmentation.cpp.o
+
+src/pcl_segmentation.i: src/pcl_segmentation.cpp.i
+.PHONY : src/pcl_segmentation.i
+
+# target to preprocess a source file
+src/pcl_segmentation.cpp.i:
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/src/pcl_segmentation.cpp.i
+.PHONY : src/pcl_segmentation.cpp.i
+
+src/pcl_segmentation.s: src/pcl_segmentation.cpp.s
+.PHONY : src/pcl_segmentation.s
+
+# target to generate assembly for a file
+src/pcl_segmentation.cpp.s:
+	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/src/pcl_segmentation.cpp.s
+.PHONY : src/pcl_segmentation.cpp.s
+
+src/pcl_write.o: src/pcl_write.cpp.o
+.PHONY : src/pcl_write.o
+
+# target to build an object file
+src/pcl_write.cpp.o:
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/src/pcl_write.cpp.o
+.PHONY : src/pcl_write.cpp.o
+
+src/pcl_write.i: src/pcl_write.cpp.i
+.PHONY : src/pcl_write.i
+
+# target to preprocess a source file
+src/pcl_write.cpp.i:
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/src/pcl_write.cpp.i
+.PHONY : src/pcl_write.cpp.i
+
+src/pcl_write.s: src/pcl_write.cpp.s
+.PHONY : src/pcl_write.s
+
+# target to generate assembly for a file
+src/pcl_write.cpp.s:
+	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/src/pcl_write.cpp.s
+.PHONY : src/pcl_write.cpp.s
+
+src/savePCD.o: src/savePCD.cpp.o
+.PHONY : src/savePCD.o
+
+# target to build an object file
+src/savePCD.cpp.o:
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/src/savePCD.cpp.o
+.PHONY : src/savePCD.cpp.o
+
+src/savePCD.i: src/savePCD.cpp.i
+.PHONY : src/savePCD.i
+
+# target to preprocess a source file
+src/savePCD.cpp.i:
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/src/savePCD.cpp.i
+.PHONY : src/savePCD.cpp.i
+
+src/savePCD.s: src/savePCD.cpp.s
+.PHONY : src/savePCD.s
+
+# target to generate assembly for a file
+src/savePCD.cpp.s:
+	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/src/savePCD.cpp.s
+.PHONY : src/savePCD.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -139,11 +398,39 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... frame_diff"
 	@echo "... image_proc"
+	@echo "... openniViewer"
+	@echo "... openni_grabber"
+	@echo "... openni_viewer_simple"
+	@echo "... pcl_segmentation"
+	@echo "... pcl_write"
 	@echo "... rebuild_cache"
+	@echo "... savePCD"
+	@echo "... src/OpenniPclViewer.o"
+	@echo "... src/OpenniPclViewer.i"
+	@echo "... src/OpenniPclViewer.s"
+	@echo "... src/frame_diff.o"
+	@echo "... src/frame_diff.i"
+	@echo "... src/frame_diff.s"
 	@echo "... src/image_proc.o"
 	@echo "... src/image_proc.i"
 	@echo "... src/image_proc.s"
+	@echo "... src/openni_grabber.o"
+	@echo "... src/openni_grabber.i"
+	@echo "... src/openni_grabber.s"
+	@echo "... src/openni_viewer_simple.o"
+	@echo "... src/openni_viewer_simple.i"
+	@echo "... src/openni_viewer_simple.s"
+	@echo "... src/pcl_segmentation.o"
+	@echo "... src/pcl_segmentation.i"
+	@echo "... src/pcl_segmentation.s"
+	@echo "... src/pcl_write.o"
+	@echo "... src/pcl_write.i"
+	@echo "... src/pcl_write.s"
+	@echo "... src/savePCD.o"
+	@echo "... src/savePCD.i"
+	@echo "... src/savePCD.s"
 .PHONY : help
 
 
