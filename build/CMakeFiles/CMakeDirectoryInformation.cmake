@@ -11,10 +11,9 @@ SET(CMAKE_FORCE_UNIX_PATHS 1)
 # The C and CXX include file search paths:
 SET(CMAKE_C_INCLUDE_PATH
   "/usr/include/vtk-5.8"
-  "/usr/local/include/pcl-1.8"
+  "/usr/include/pcl-1.7"
   "/usr/include/eigen3"
   "/usr/include/ni"
-  "/usr/include/openni2"
   "/usr/include/qhull"
   )
 SET(CMAKE_CXX_INCLUDE_PATH ${CMAKE_C_INCLUDE_PATH})

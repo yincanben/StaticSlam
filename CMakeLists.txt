@@ -1,6 +1,12 @@
 cmake_minimum_required(VERSION 2.8)
 project(ObjectDetection)
 
+#SET(CMAKE_BUILD_TYPE "Debug")
+#SET(CMAKE_CXX_FLAGS_DEBUG "-O0 -Wall -g -ggdb"${SSE_FLAGS})
+#SET(CMAKE_CXX_FLAGS_RELEASE "-O3 -wall"${SSE_FLAGS})
+
+
+
 find_package( OpenCV REQUIRED )
 find_package(PCL 1.7 REQUIRED)
 
@@ -40,4 +46,7 @@ add_executable(openniViewer ${PCL_openni_viewer_SRC})
 
 add_executable(pcl_write src/pcl_write.cpp)
 target_link_libraries (pcl_write ${PCL_LIBRARIES})
+
+add_executable(people_detector src/ground_based_rgbd_people_detector.cpp)
+target_link_libraries (people_detector ${PCL_LIBRARIES})
 

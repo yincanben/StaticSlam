@@ -5,4 +5,5 @@
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openni_viewer_simple.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pcl_segmentation.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pcl_write.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/people_detector.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/savePCD.dir

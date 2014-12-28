@@ -1118,7 +1118,7 @@ XnModuleInterface.h
 XnPlatform.h
 /usr/include/ni/XnPlatform.h
 
-/usr/local/include/pcl-1.8/pcl/PCLHeader.h
+/usr/include/pcl-1.7/pcl/PCLHeader.h
 string
 -
 vector
@@ -1130,7 +1130,7 @@ pcl/pcl_macros.h
 ostream
 -
 
-/usr/local/include/pcl-1.8/pcl/PCLPointField.h
+/usr/include/pcl-1.7/pcl/PCLPointField.h
 string
 -
 vector
@@ -1142,23 +1142,21 @@ boost/shared_ptr.hpp
 pcl/pcl_macros.h
 -
 
-/usr/local/include/pcl-1.8/pcl/common/point_tests.h
+/usr/include/pcl-1.7/pcl/common/point_tests.h
 Eigen/src/StlSupport/details.h
 -
 
-/usr/local/include/pcl-1.8/pcl/common/synchronizer.h
+/usr/include/pcl-1.7/pcl/common/synchronizer.h
 
-/usr/local/include/pcl-1.8/pcl/common/time.h
+/usr/include/pcl-1.7/pcl/common/time.h
 cmath
--
-queue
 -
 string
 -
 boost/date_time/posix_time/posix_time.hpp
 -
 
-/usr/local/include/pcl-1.8/pcl/exceptions.h
+/usr/include/pcl-1.7/pcl/exceptions.h
 stdexcept
 -
 sstream
@@ -1168,7 +1166,7 @@ pcl/pcl_macros.h
 boost/current_function.hpp
 -
 
-/usr/local/include/pcl-1.8/pcl/impl/point_types.hpp
+/usr/include/pcl-1.7/pcl/impl/point_types.hpp
 Eigen/Core
 -
 ostream
@@ -1176,7 +1174,7 @@ ostream
 pcl/common/point_tests.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/boost.h
+/usr/include/pcl-1.7/pcl/io/boost.h
 boost/numeric/conversion/cast.hpp
 -
 boost/thread/mutex.hpp
@@ -1217,8 +1215,6 @@ boost/algorithm/string.hpp
 -
 boost/date_time/posix_time/posix_time.hpp
 -
-boost/chrono.hpp
--
 boost/tokenizer.hpp
 -
 boost/foreach.hpp
@@ -1229,18 +1225,16 @@ boost/interprocess/sync/file_lock.hpp
 -
 boost/interprocess/permissions.hpp
 -
-boost/iostreams/device/mapped_file.hpp
--
 boost/signals2.hpp
 -
 boost/signals2/slot.hpp
 -
 
-/usr/local/include/pcl-1.8/pcl/io/eigen.h
+/usr/include/pcl-1.7/pcl/io/eigen.h
 Eigen/Core
 -
 
-/usr/local/include/pcl-1.8/pcl/io/grabber.h
+/usr/include/pcl-1.7/pcl/io/grabber.h
 pcl/pcl_config.h
 -
 map
@@ -1262,7 +1256,7 @@ pcl/io/boost.h
 pcl/exceptions.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni.h
 pcl/pcl_config.h
 -
 XnOS.h
@@ -1272,19 +1266,19 @@ XnCppWrapper.h
 XnVersion.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_depth_image.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_depth_image.h
 pcl/pcl_config.h
 -
 openni.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni.h
 pcl/pcl_exports.h
 -
 openni_exception.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_exception.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_exception.h
 pcl/io/boost.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_device.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_device.h
 pcl/pcl_config.h
 -
 map
@@ -1294,25 +1288,25 @@ vector
 utility
 -
 openni_exception.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_exception.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_exception.h
 openni.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni.h
 pcl/io/boost.h
 -
 pcl/pcl_macros.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_device_kinect.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_device_kinect.h
 pcl/pcl_config.h
 -
 openni_device.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_device.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_device.h
 openni_driver.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_driver.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_driver.h
 openni_image_bayer_grbg.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_image_bayer_grbg.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_image_bayer_grbg.h
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_driver.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_driver.h
 pcl/pcl_config.h
 -
 string
@@ -1322,17 +1316,17 @@ vector
 map
 -
 openni.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni.h
 openni_exception.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_exception.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_exception.h
 openni_device.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_device.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_device.h
 pcl/io/boost.h
 -
 pcl/pcl_macros.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_exception.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_exception.h
 pcl/pcl_config.h
 -
 cstdarg
@@ -1344,37 +1338,37 @@ exception
 string
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_image.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_image.h
 pcl/pcl_config.h
 -
 pcl/pcl_exports.h
 -
 openni.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni.h
 openni_exception.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_exception.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_exception.h
 pcl/io/boost.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_image_bayer_grbg.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_image_bayer_grbg.h
 pcl/pcl_config.h
 -
 pcl/pcl_macros.h
 -
 openni_image.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_image.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_image.h
 
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_ir_image.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_ir_image.h
 pcl/pcl_macros.h
 -
 openni.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni.h
 openni_exception.h
-/usr/local/include/pcl-1.8/pcl/io/openni_camera/openni_exception.h
+/usr/include/pcl-1.7/pcl/io/openni_camera/openni_exception.h
 pcl/io/boost.h
 -
 
-/usr/local/include/pcl-1.8/pcl/io/openni_grabber.h
+/usr/include/pcl-1.7/pcl/io/openni_grabber.h
 pcl/pcl_config.h
 -
 pcl/io/eigen.h
@@ -1400,11 +1394,11 @@ deque
 pcl/common/synchronizer.h
 -
 
-/usr/local/include/pcl-1.8/pcl/pcl_config.h
+/usr/include/pcl-1.7/pcl/pcl_config.h
 
-/usr/local/include/pcl-1.8/pcl/pcl_exports.h
+/usr/include/pcl-1.7/pcl/pcl_exports.h
 
-/usr/local/include/pcl-1.8/pcl/pcl_macros.h
+/usr/include/pcl-1.7/pcl/pcl_macros.h
 pcl/pcl_config.h
 -
 boost/cstdint.hpp
@@ -1430,7 +1424,7 @@ stdio.h
 math.h
 -
 
-/usr/local/include/pcl-1.8/pcl/point_cloud.h
+/usr/include/pcl-1.7/pcl/point_cloud.h
 Eigen/StdVector
 -
 Eigen/Geometry
@@ -1442,9 +1436,9 @@ pcl/exceptions.h
 pcl/point_traits.h
 -
 
-/usr/local/include/pcl-1.8/pcl/point_traits.h
+/usr/include/pcl-1.7/pcl/point_traits.h
 pcl/pcl_macros.h
-/usr/local/include/pcl-1.8/pcl/pcl/pcl_macros.h
+/usr/include/pcl-1.7/pcl/pcl/pcl_macros.h
 pcl/PCLPointField.h
 -
 boost/type_traits/remove_all_extents.hpp
@@ -1455,28 +1449,18 @@ boost/mpl/assert.hpp
 -
 boost/mpl/bool.hpp
 -
-Eigen/Core
--
-Eigen/src/StlSupport/details.h
--
 
-/usr/local/include/pcl-1.8/pcl/point_types.h
+/usr/include/pcl-1.7/pcl/point_types.h
 pcl/pcl_macros.h
 -
 bitset
 -
 pcl/register_point_struct.h
 -
-boost/mpl/contains.hpp
--
-boost/mpl/fold.hpp
--
-boost/mpl/vector.hpp
--
 pcl/impl/point_types.hpp
 -
 
-/usr/local/include/pcl-1.8/pcl/register_point_struct.h
+/usr/include/pcl-1.7/pcl/register_point_struct.h
 pcl/pcl_macros.h
 -
 pcl/point_traits.h

@@ -187,6 +187,19 @@ pcl_write/fast:
 .PHONY : pcl_write/fast
 
 #=============================================================================
+# Target rules for targets named people_detector
+
+# Build rule for target.
+people_detector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 people_detector
+.PHONY : people_detector
+
+# fast build rule for target.
+people_detector/fast:
+	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/build
+.PHONY : people_detector/fast
+
+#=============================================================================
 # Target rules for targets named savePCD
 
 # Build rule for target.
@@ -246,6 +259,30 @@ src/frame_diff.s: src/frame_diff.cpp.s
 src/frame_diff.cpp.s:
 	$(MAKE) -f CMakeFiles/frame_diff.dir/build.make CMakeFiles/frame_diff.dir/src/frame_diff.cpp.s
 .PHONY : src/frame_diff.cpp.s
+
+src/ground_based_rgbd_people_detector.o: src/ground_based_rgbd_people_detector.cpp.o
+.PHONY : src/ground_based_rgbd_people_detector.o
+
+# target to build an object file
+src/ground_based_rgbd_people_detector.cpp.o:
+	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/src/ground_based_rgbd_people_detector.cpp.o
+.PHONY : src/ground_based_rgbd_people_detector.cpp.o
+
+src/ground_based_rgbd_people_detector.i: src/ground_based_rgbd_people_detector.cpp.i
+.PHONY : src/ground_based_rgbd_people_detector.i
+
+# target to preprocess a source file
+src/ground_based_rgbd_people_detector.cpp.i:
+	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/src/ground_based_rgbd_people_detector.cpp.i
+.PHONY : src/ground_based_rgbd_people_detector.cpp.i
+
+src/ground_based_rgbd_people_detector.s: src/ground_based_rgbd_people_detector.cpp.s
+.PHONY : src/ground_based_rgbd_people_detector.s
+
+# target to generate assembly for a file
+src/ground_based_rgbd_people_detector.cpp.s:
+	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/src/ground_based_rgbd_people_detector.cpp.s
+.PHONY : src/ground_based_rgbd_people_detector.cpp.s
 
 src/image_proc.o: src/image_proc.cpp.o
 .PHONY : src/image_proc.o
@@ -405,6 +442,7 @@ help:
 	@echo "... openni_viewer_simple"
 	@echo "... pcl_segmentation"
 	@echo "... pcl_write"
+	@echo "... people_detector"
 	@echo "... rebuild_cache"
 	@echo "... savePCD"
 	@echo "... src/OpenniPclViewer.o"
@@ -413,6 +451,9 @@ help:
 	@echo "... src/frame_diff.o"
 	@echo "... src/frame_diff.i"
 	@echo "... src/frame_diff.s"
+	@echo "... src/ground_based_rgbd_people_detector.o"
+	@echo "... src/ground_based_rgbd_people_detector.i"
+	@echo "... src/ground_based_rgbd_people_detector.s"
 	@echo "... src/image_proc.o"
 	@echo "... src/image_proc.i"
 	@echo "... src/image_proc.s"
