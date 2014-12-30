@@ -3,7 +3,7 @@
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openniViewer.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openni_grabber.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/openni_viewer_simple.dir
+/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pclSave.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pcl_segmentation.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/pcl_write.dir
 /home/ycb13/Desktop/StaticSlam/build/CMakeFiles/people_detector.dir
-/home/ycb13/Desktop/StaticSlam/build/CMakeFiles/savePCD.dir

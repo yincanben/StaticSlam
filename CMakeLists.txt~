@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 2.8)
 project(ObjectDetection)
 
-SET(CMAKE_BUILD_TYPE "Debug")
-SET(CMAKE_CXX_FLAGS_DEBUG "-O0 -Wall -g -ggdb"${SSE_FLAGS})
-SET(CMAKE_CXX_FLAGS_RELEASE "-O3 -wall"${SSE_FLAGS})
+#SET(CMAKE_BUILD_TYPE "Debug")
+#SET(CMAKE_CXX_FLAGS_DEBUG "-O0 -Wall -g -ggdb"${SSE_FLAGS})
+#SET(CMAKE_CXX_FLAGS_RELEASE "-O3 -wall"${SSE_FLAGS})
 
 
 
@@ -33,8 +33,8 @@ add_executable(openni_viewer_simple src/openni_viewer_simple.cpp)
 target_link_libraries(openni_viewer_simple ${PCL_LIBRARIES})
 
 
-add_executable(savePCD src/savePCD.cpp)
-target_link_libraries(savePCD ${PCL_LIBRARIES})
+add_executable(pclSave src/pclSave.cpp)
+target_link_libraries(pclSave ${PCL_LIBRARIES})
 
 set(PCL_BUILD_TYPE Release)
  

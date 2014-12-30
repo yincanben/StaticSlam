@@ -161,6 +161,19 @@ openni_viewer_simple/fast:
 .PHONY : openni_viewer_simple/fast
 
 #=============================================================================
+# Target rules for targets named pclSave
+
+# Build rule for target.
+pclSave: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pclSave
+.PHONY : pclSave
+
+# fast build rule for target.
+pclSave/fast:
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/build
+.PHONY : pclSave/fast
+
+#=============================================================================
 # Target rules for targets named pcl_segmentation
 
 # Build rule for target.
@@ -198,19 +211,6 @@ people_detector: cmake_check_build_system
 people_detector/fast:
 	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/build
 .PHONY : people_detector/fast
-
-#=============================================================================
-# Target rules for targets named savePCD
-
-# Build rule for target.
-savePCD: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 savePCD
-.PHONY : savePCD
-
-# fast build rule for target.
-savePCD/fast:
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/build
-.PHONY : savePCD/fast
 
 src/OpenniPclViewer.o: src/OpenniPclViewer.cpp.o
 .PHONY : src/OpenniPclViewer.o
@@ -356,6 +356,30 @@ src/openni_viewer_simple.cpp.s:
 	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/src/openni_viewer_simple.cpp.s
 .PHONY : src/openni_viewer_simple.cpp.s
 
+src/pclSave.o: src/pclSave.cpp.o
+.PHONY : src/pclSave.o
+
+# target to build an object file
+src/pclSave.cpp.o:
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/src/pclSave.cpp.o
+.PHONY : src/pclSave.cpp.o
+
+src/pclSave.i: src/pclSave.cpp.i
+.PHONY : src/pclSave.i
+
+# target to preprocess a source file
+src/pclSave.cpp.i:
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/src/pclSave.cpp.i
+.PHONY : src/pclSave.cpp.i
+
+src/pclSave.s: src/pclSave.cpp.s
+.PHONY : src/pclSave.s
+
+# target to generate assembly for a file
+src/pclSave.cpp.s:
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/src/pclSave.cpp.s
+.PHONY : src/pclSave.cpp.s
+
 src/pcl_segmentation.o: src/pcl_segmentation.cpp.o
 .PHONY : src/pcl_segmentation.o
 
@@ -404,30 +428,6 @@ src/pcl_write.cpp.s:
 	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/src/pcl_write.cpp.s
 .PHONY : src/pcl_write.cpp.s
 
-src/savePCD.o: src/savePCD.cpp.o
-.PHONY : src/savePCD.o
-
-# target to build an object file
-src/savePCD.cpp.o:
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/src/savePCD.cpp.o
-.PHONY : src/savePCD.cpp.o
-
-src/savePCD.i: src/savePCD.cpp.i
-.PHONY : src/savePCD.i
-
-# target to preprocess a source file
-src/savePCD.cpp.i:
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/src/savePCD.cpp.i
-.PHONY : src/savePCD.cpp.i
-
-src/savePCD.s: src/savePCD.cpp.s
-.PHONY : src/savePCD.s
-
-# target to generate assembly for a file
-src/savePCD.cpp.s:
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/src/savePCD.cpp.s
-.PHONY : src/savePCD.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -440,11 +440,11 @@ help:
 	@echo "... openniViewer"
 	@echo "... openni_grabber"
 	@echo "... openni_viewer_simple"
+	@echo "... pclSave"
 	@echo "... pcl_segmentation"
 	@echo "... pcl_write"
 	@echo "... people_detector"
 	@echo "... rebuild_cache"
-	@echo "... savePCD"
 	@echo "... src/OpenniPclViewer.o"
 	@echo "... src/OpenniPclViewer.i"
 	@echo "... src/OpenniPclViewer.s"
@@ -463,15 +463,15 @@ help:
 	@echo "... src/openni_viewer_simple.o"
 	@echo "... src/openni_viewer_simple.i"
 	@echo "... src/openni_viewer_simple.s"
+	@echo "... src/pclSave.o"
+	@echo "... src/pclSave.i"
+	@echo "... src/pclSave.s"
 	@echo "... src/pcl_segmentation.o"
 	@echo "... src/pcl_segmentation.i"
 	@echo "... src/pcl_segmentation.s"
 	@echo "... src/pcl_write.o"
 	@echo "... src/pcl_write.i"
 	@echo "... src/pcl_write.s"
-	@echo "... src/savePCD.o"
-	@echo "... src/savePCD.i"
-	@echo "... src/savePCD.s"
 .PHONY : help
 
 

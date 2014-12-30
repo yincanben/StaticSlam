@@ -25,6 +25,7 @@ target_link_libraries(frame_diff ${OpenCV_LIBS})
 
 add_executable(pcl_segmentation src/pcl_segmentation.cpp)
 target_link_libraries(pcl_segmentation ${PCL_LIBRARIES})
+target_link_libraries(pcl_segmentation ${OpenCV_LIBS})
 
 add_executable(openni_grabber src/openni_grabber.cpp)
 target_link_libraries(openni_grabber ${PCL_LIBRARIES})
@@ -33,8 +34,8 @@ add_executable(openni_viewer_simple src/openni_viewer_simple.cpp)
 target_link_libraries(openni_viewer_simple ${PCL_LIBRARIES})
 
 
-add_executable(savePCD src/savePCD.cpp)
-target_link_libraries(savePCD ${PCL_LIBRARIES})
+add_executable(pclSave src/pclSave.cpp)
+target_link_libraries(pclSave ${PCL_LIBRARIES})
 
 set(PCL_BUILD_TYPE Release)
  

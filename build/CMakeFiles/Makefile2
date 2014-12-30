@@ -225,13 +225,48 @@ clean: CMakeFiles/openni_viewer_simple.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/pclSave.dir
+
+# All Build rule for target.
+CMakeFiles/pclSave.dir/all:
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/depend
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  6
+	@echo "Built target pclSave"
+.PHONY : CMakeFiles/pclSave.dir/all
+
+# Include target in all.
+all: CMakeFiles/pclSave.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pclSave.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pclSave.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
+.PHONY : CMakeFiles/pclSave.dir/rule
+
+# Convenience name for target.
+pclSave: CMakeFiles/pclSave.dir/rule
+.PHONY : pclSave
+
+# clean rule for target.
+CMakeFiles/pclSave.dir/clean:
+	$(MAKE) -f CMakeFiles/pclSave.dir/build.make CMakeFiles/pclSave.dir/clean
+.PHONY : CMakeFiles/pclSave.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pclSave.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pcl_segmentation.dir
 
 # All Build rule for target.
 CMakeFiles/pcl_segmentation.dir/all:
 	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/depend
 	$(MAKE) -f CMakeFiles/pcl_segmentation.dir/build.make CMakeFiles/pcl_segmentation.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  7
 	@echo "Built target pcl_segmentation"
 .PHONY : CMakeFiles/pcl_segmentation.dir/all
 
@@ -266,7 +301,7 @@ clean: CMakeFiles/pcl_segmentation.dir/clean
 CMakeFiles/pcl_write.dir/all:
 	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/depend
 	$(MAKE) -f CMakeFiles/pcl_write.dir/build.make CMakeFiles/pcl_write.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  8
 	@echo "Built target pcl_write"
 .PHONY : CMakeFiles/pcl_write.dir/all
 
@@ -301,7 +336,7 @@ clean: CMakeFiles/pcl_write.dir/clean
 CMakeFiles/people_detector.dir/all:
 	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/depend
 	$(MAKE) -f CMakeFiles/people_detector.dir/build.make CMakeFiles/people_detector.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  9
 	@echo "Built target people_detector"
 .PHONY : CMakeFiles/people_detector.dir/all
 
@@ -327,41 +362,6 @@ CMakeFiles/people_detector.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/people_detector.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/savePCD.dir
-
-# All Build rule for target.
-CMakeFiles/savePCD.dir/all:
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/depend
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ycb13/Desktop/StaticSlam/build/CMakeFiles  9
-	@echo "Built target savePCD"
-.PHONY : CMakeFiles/savePCD.dir/all
-
-# Include target in all.
-all: CMakeFiles/savePCD.dir/all
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/savePCD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/savePCD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ycb13/Desktop/StaticSlam/build/CMakeFiles 0
-.PHONY : CMakeFiles/savePCD.dir/rule
-
-# Convenience name for target.
-savePCD: CMakeFiles/savePCD.dir/rule
-.PHONY : savePCD
-
-# clean rule for target.
-CMakeFiles/savePCD.dir/clean:
-	$(MAKE) -f CMakeFiles/savePCD.dir/build.make CMakeFiles/savePCD.dir/clean
-.PHONY : CMakeFiles/savePCD.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/savePCD.dir/clean
 .PHONY : clean
 
 #=============================================================================

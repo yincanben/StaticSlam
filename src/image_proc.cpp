@@ -36,8 +36,8 @@ int main(int argc , char** argv){
 
     double threshold_diff = 30 ;
     //double beta , input ;
-    src1 = imread("../images/image1.jpg") ;
-    src2 = imread("../images/image4.jpg") ;
+    src1 = imread("../images/previousFrameImage.jpg") ;
+    src2 = imread("../images/nextFrameImage.jpg") ;
     //previousFrame.create( src1.rows, src1.cols, CV_8UC1, Scalar::all(0)) ;
     //nextFrame.create( src1.rows, src1.cols, CV_8UC1, Scalar::all(0)) ;
     //dst.create( src1.rows, src1.cols, CV_8UC1, Scalar::all(0)) ;

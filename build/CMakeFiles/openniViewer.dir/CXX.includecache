@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/ycb13/Desktop/StaticSlam/src/OpenniPclViewer.cpp
+iostream
+-
 pcl/io/openni_grabber.h
 -
 pcl/io/pcd_io.h
@@ -14,8 +16,6 @@ pcl/io/pcd_io.h
 pcl/visualization/cloud_viewer.h
 -
 pcl/console/parse.h
--
-iostream
 -
 
 /usr/include/eigen3/Eigen/Cholesky
